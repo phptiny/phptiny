@@ -1,0 +1,19 @@
+{
+    "name": "phptiny/phptiny",
+	"description": "Framework em PHP funcional com views em PHP puro e models com Medoo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hacker Gaucho",
+            "email": "73040867+hackergaucho@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "catfan/medoo": "v1.7.10"
+    },
+	"autoload": {
+		"psr-4": {
+			"PHPTiny\\": "src"
+		}
+	}
+}
